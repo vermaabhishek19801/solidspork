@@ -18,7 +18,7 @@ namespace solid_spork.Controllers
 
         public ActionResult QueryDetails(int id, string details)
         {
-            ViewBag.Title = "solid-work.com " + details ?? "";          
+            ViewBag.Title = "solid-work.com " + details ?? "";
             return View();
         }
 

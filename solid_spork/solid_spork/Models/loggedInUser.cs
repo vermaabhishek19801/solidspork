@@ -8,7 +8,7 @@ namespace solid_spork
     public static class LoggedInUser
     {
         public static int UserId { get; set; }
-        public static string email { get; set; }
+        public static string Email { get; set; }
         public static int UserType { get; set; }
     }
 }

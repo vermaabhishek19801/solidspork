@@ -67,6 +67,10 @@ F:\WorkSpace\GITHUB\HelpMe\solid-spork\solid_spork\solid_spork\bin\System.Web.We
 F:\WorkSpace\GITHUB\HelpMe\solid-spork\solid_spork\solid_spork\bin\System.Web.WebPages.Razor.xml
 F:\WorkSpace\GITHUB\HelpMe\solid-spork\solid_spork\solid_spork\bin\Zlib.Portable.xml
 F:\WorkSpace\GITHUB\HelpMe\solid-spork\solid_spork\solid_spork\obj\Debug\solid_spork.csproj.App.config
-F:\WorkSpace\GITHUB\HelpMe\solid-spork\solid_spork\solid_spork\obj\Debug\solid_spork.csprojResolveAssemblyReference.cache
 F:\WorkSpace\GITHUB\HelpMe\solid-spork\solid_spork\solid_spork\obj\Debug\solid_spork.dll
 F:\WorkSpace\GITHUB\HelpMe\solid-spork\solid_spork\solid_spork\obj\Debug\solid_spork.pdb
+F:\WorkSpace\GITHUB\HelpMe\solid-spork\solid_spork\solid_spork\obj\Debug\solid_spork.csprojResolveAssemblyReference.cache
+F:\WorkSpace\GITHUB\HelpMe\solid-spork\solid_spork\solid_spork\bin\EntityFramework.dll
+F:\WorkSpace\GITHUB\HelpMe\solid-spork\solid_spork\solid_spork\bin\EntityFramework.SqlServer.dll
+F:\WorkSpace\GITHUB\HelpMe\solid-spork\solid_spork\solid_spork\bin\EntityFramework.xml
+F:\WorkSpace\GITHUB\HelpMe\solid-spork\solid_spork\solid_spork\bin\EntityFramework.SqlServer.xml

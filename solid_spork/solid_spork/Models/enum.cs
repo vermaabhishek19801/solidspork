@@ -10,9 +10,9 @@ namespace solid_spork
     }
     public enum UserType
     {
-        Admin = 1,
-        Moderator = 2,
-        User = 0
+        Admin = 99,
+        Moderator = 10,
+        User = 1
     }
 
 }
