@@ -44,6 +44,10 @@ namespace solid_spork.Controllers
             {
                 UserId = data.UserId;
                 UserType = data.UserType;
+                if (data.IsActive == false)
+                {
+                    return RedirectToAction("index", "home");
+                }
             }
             else
             {

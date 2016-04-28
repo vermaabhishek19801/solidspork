@@ -231,16 +231,13 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Content Include="bootstrap\css\bootstrap-theme.css" />
-    <Content Include="bootstrap\css\bootstrap-theme.min.css" />
-    <Content Include="bootstrap\css\bootstrap.css" />
-    <Content Include="bootstrap\css\bootstrap.min.css" />
-    <Content Include="bootstrap\js\bootstrap.js" />
-    <Content Include="bootstrap\js\bootstrap.min.js" />
-    <Content Include="bootstrap\js\npm.js" />
     <Content Include="Global.asax" />
+    <Content Include="ng\queryCtrl.js" />
+    <Content Include="ng\ng.js" />
     <Content Include="UI\Css\main.css" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -253,27 +250,17 @@
     <Folder Include="App_Data\" />
     <Folder Include="UI\Img\" />
     <Folder Include="UI\Js\" />
-    <Folder Include="View\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="bootstrap\css\bootstrap-theme.css.map" />
-    <None Include="bootstrap\css\bootstrap-theme.min.css.map" />
-    <None Include="bootstrap\css\bootstrap.css.map" />
-    <None Include="bootstrap\css\bootstrap.min.css.map" />
-    <None Include="bootstrap\fonts\glyphicons-halflings-regular.eot" />
-    <None Include="bootstrap\fonts\glyphicons-halflings-regular.svg" />
-    <None Include="bootstrap\fonts\glyphicons-halflings-regular.ttf" />
-    <None Include="bootstrap\fonts\glyphicons-halflings-regular.woff" />
-    <None Include="bootstrap\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="Views\shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\shared\_menu.cshtml" />
     <Content Include="Views\shared\_footer.cshtml" />
-    <Content Include="Views\query\query.cshtml" />
-    <Content Include="Views\query\QueryDetails.cshtml" />
+    <Content Include="Views\Query\Query.cshtml" />
+    <Content Include="Views\Query\QueryDetails.cshtml" />
     <Content Include="Views\Login\SignIn.cshtml" />
     <Content Include="Views\Login\SignUp.cshtml" />
     <Content Include="Upload\client.json" />

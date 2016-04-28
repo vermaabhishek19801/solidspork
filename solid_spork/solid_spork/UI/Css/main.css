@@ -1,21 +1,25 @@
-﻿body
-{
+﻿body {
     padding-top: 50px;
     text-align: center;
     height: 100%;
 }
-.starter-template
-{
+
+.starter-template {
     padding: 40px 15px;
     text-align: center;
 }
-.main-search-box
-{
+
+.main-search-box {
     width: 100%;
     height: 50px;
     padding: 5px;
 }
-.result
-{
+
+.result {
     text-align: left;
+}
+
+.starter-template h1:first-child {
+    margin-top: 25px;
+    float:left;
 }
