@@ -30,5 +30,10 @@ namespace solid_spork.DL
             }
             return flag;
         }
+
+        internal object GetLatestQuery(SearchQuery SearchQuery)
+        {
+            return db.Queries.OrderByDescending(m => m.AddedOn);
+        }
     }
 }

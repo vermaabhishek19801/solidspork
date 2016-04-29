@@ -237,6 +237,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Content Include="Global.asax" />
+    <Content Include="ng\homeCtrl.js" />
     <Content Include="ng\queryCtrl.js" />
     <Content Include="ng\ng.js" />
     <Content Include="UI\Js\golbal.js" />

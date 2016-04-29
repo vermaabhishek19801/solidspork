@@ -1,65 +1,25 @@
-﻿@{  
+﻿@{
     Layout = "~/Views/shared/_Layout.cshtml";
 }
 
-    <div class="container">
-        <div class="starter-template">
-            <h1>
-                solid-spork.com</h1>
-            <p class="lead">
-                <input type="text" name="search" id="search" class="main-search-box" placeholder="search/ask help me to help you on solid-spork.com  " /></p>
-        </div>
-        <div id="search_result">
-            <div class="result" id="q_1">
-                <h3>
-                    Delhi metro Review</h3>
-                <p>
-                    As a heads up, the navbar component is rather tricky here in that the styles for
-                    displaying it are rather specific and detailed. Overrides to ensure desktop styles
-                    display are not as performant or sleek as one would like. Just be aware there may
-                    be potential gotchas as you build on top of this example when using the navbar.</p>
-            </div>
-            <div class="result" id="q_2">
-                <h3>
-                    Facebook Vs Twitter</h3>
-                <p>
-                    As a heads up, the navbar component is rather tricky here in that the styles for
-                    displaying it are rather specific and detailed. Overrides to ensure desktop styles
-                    display are not as performant or sleek as one would like. Just be aware there may
-                    be potential gotchas as you build on top of this example when using the navbar.</p>
-            </div>
-            <div class="result" id="q_3">
-                <h3>
-                    Should I watch FAN movie</h3>
-                <p>
-                    As a heads up, the navbar component is rather tricky here in that the styles for
-                    displaying it are rather specific and detailed. Overrides to ensure desktop styles
-                    display are not as performant or sleek as one would like. Just be aware there may
-                    be potential gotchas as you build on top of this example when using the navbar.</p>
-            </div>
-            <div class="result" id="q_4">
-                <h3>
-                    Which book is best for MVC</h3>
-                <p>
-                    As a heads up, the navbar component is rather tricky here in that the styles for
-                    displaying it are rather specific and detailed. Overrides to ensure desktop styles
-                    display are not as performant or sleek as one would like. Just be aware there may
-                    be potential gotchas as you build on top of this example when using the navbar.</p>
-            </div>
-            <div class="result" id="q_5">
-                <h3>
-                    Can any one suggest route for Ndls to CNB</h3>
-                <p>
-                    As a heads up, the navbar component is rather tricky here in that the styles for
-                    displaying it are rather specific and detailed. Overrides to ensure desktop styles
-                    display are not as performant or sleek as one would like. Just be aware there may
-                    be potential gotchas as you build on top of this example when using the navbar.</p>
-            </div>
-        </div>
-        <nav>
-                <ul class="pager">
-                    <li><a href="#">Previous</a></li>
-                    <li><a href="#">Next</a></li>
-                </ul>
-            </nav>
+<div class="container" ng-controller="homeCtrl" ng-init="loadFeeds()">
+    <div class="starter-template">
+        <h1>
+            solid-spork.com
+        </h1>
+        <p class="lead">
+            <input type="text" name="search" id="search" class="main-search-box" placeholder="search/ask help me to help you on solid-spork.com  " ng-model="searchText" />
+        </p>
     </div>
+    <div id="search_result" ng-repeat="x in feedData">
+        <div class="result" id="{{x.QueryId}}">
+            <h3 ng-bind="x.QueryData"></h3>
+            <p ng-bind="x.QueryDescription">
+
+            </p>
+        </div>
+
+    </div>
+
+</div>
+<script src="~/ng/homeCtrl.js"></script>

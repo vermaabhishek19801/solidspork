@@ -10,4 +10,8 @@ namespace solid_spork.Models
         public string Query { get; set; }
         public string QueryDescription { get; set; }
     }
+    public class SearchQuery
+    {
+        public string searchText { get; set; }
+    }
 }
