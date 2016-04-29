@@ -196,7 +196,8 @@
   <ItemGroup>
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
-    <Compile Include="Controllers\queryController.cs" />
+    <Compile Include="Controllers\QueryController.cs" />
+    <Compile Include="DL\QueryDl.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -206,6 +207,10 @@
     <Compile Include="Models\loggedInUser.cs" />
     <Compile Include="Controllers\LoginActivityFilter.cs" />
     <Compile Include="Controllers\UserActivityFilter.cs" />
+    <Compile Include="Models\Query.cs">
+      <DependentUpon>SolidModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\QueryData.cs" />
     <Compile Include="Models\SolidModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -234,6 +239,7 @@
     <Content Include="Global.asax" />
     <Content Include="ng\queryCtrl.js" />
     <Content Include="ng\ng.js" />
+    <Content Include="UI\Js\golbal.js" />
     <Content Include="UI\Css\main.css" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -249,7 +255,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="UI\Img\" />
-    <Folder Include="UI\Js\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

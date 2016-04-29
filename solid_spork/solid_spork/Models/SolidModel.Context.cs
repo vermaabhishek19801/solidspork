@@ -26,5 +26,6 @@ namespace solid_spork.Models
         }
     
         public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<Query> Queries { get; set; }
     }
 }

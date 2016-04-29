@@ -2,6 +2,7 @@
 <Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
   <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Users" EntityType="Model.User" />
+    <EntitySet Name="Queries" EntityType="Model.Query" />
   </EntityContainer>
   <EntityType Name="User">
     <Key>
@@ -12,5 +13,17 @@
     <Property Name="UserType" Type="Int32" Nullable="false" />
     <Property Name="DOJ" Type="DateTime" Nullable="false" Precision="3" />
     <Property Name="IsActive" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Query">
+    <Key>
+      <PropertyRef Name="QueryId" />
+    </Key>
+    <Property Name="QueryId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="QueryDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="AddedOn" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="AddedBy" Type="Int32" Nullable="false" />
+    <Property Name="IsActive" Type="Boolean" Nullable="false" />
+    <Property Name="QueryViews" Type="Int32" Nullable="false" />
+    <Property Name="QueryData" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
   </EntityType>
 </Schema>

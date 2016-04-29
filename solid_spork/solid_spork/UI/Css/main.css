@@ -21,5 +21,16 @@
 
 .starter-template h1:first-child {
     margin-top: 25px;
-    float:left;
+    float: left;
+}
+
+.top-msg {
+    color: black;;
+    font-size: 15px;
+    position: fixed;
+    top: 0px;
+    z-index: 9999999;
+    left: 30%;
+    padding:2px 0px;
+    background:yellow;
 }
