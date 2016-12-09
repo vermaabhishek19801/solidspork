@@ -14,7 +14,7 @@ namespace solid_spork.Controllers
         // GET: /Home/
 
         public ActionResult Index()
-        {
+        {          
             return View();
         }
         public JsonResult GetQueries(SearchQuery SearchQuery)

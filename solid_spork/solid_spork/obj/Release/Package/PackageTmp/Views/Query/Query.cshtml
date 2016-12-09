@@ -1,0 +1,44 @@
+﻿@{
+    Layout = "~/Views/shared/_Layout.cshtml";
+}
+
+<div class="container" ng-controller="queryCtrl">
+    <form id="queryForm" name="queryForm" novalidate ng-submit="_queryFormSubmit()">
+        <div class="starter-template">
+            <h1>
+                Ask your question/query or Provide review at solid-spork.com
+            </h1>
+            <div class="result">
+                <p>
+
+                    <input type="text" name="query" id="query" class="form-control" placeholder="Type your question/query/review title " ng-model="query" required />
+
+                </p>
+
+                <p>
+
+                    <textarea id="queryDescrption" name="queryDescrption" class="form-control" rows="5" placeholder="Provide details comment here" ng-model="queryDescrption" required></textarea>
+
+                </p>
+            </div>
+            <div class="result" id="q_1">
+                <h3 ng-bind="query"></h3>
+                <p ng-bind="queryDescrption">
+
+                </p>
+            </div>
+
+            <p class="pull-left">
+                @if (Session["UserId"] != null)
+                {
+                    <input type="submit" class="btn btn-danger" ng-disabled="queryForm.queryDescrption.$invalid || queryForm.query.$invalid" value="Query/review this on solid-spork.com" />
+                }
+                else
+                {
+                    <a class="btn btn-danger" href="@Url.Action("SignIn","login")">Please login to ask query</a>
+                }
+            </p>
+        </div>
+    </form>
+</div>
+<script src="~/ng/queryCtrl.js"></script>

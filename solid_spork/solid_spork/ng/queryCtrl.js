@@ -19,7 +19,7 @@ function _queryCtrl($scope, $http, $rootScope) {
             }
             else {
                 $scope.query = "";
-                $scope.queryDescription = "";
+                $scope.queryDescrption = "";
                 $rootScope.msg = "Your query had been created successfully.";
             }
         }, function errorCallback(response) {

@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>F:\PUBLISHED</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/BouncyCastle.Crypto.dll">
+      <publishTime>04/24/2016 23:22:54</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>04/26/2016 23:16:44</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>04/26/2016 23:16:44</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.Auth.dll">
+      <publishTime>04/24/2016 23:22:54</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.Auth.PlatformServices.dll">
+      <publishTime>04/24/2016 23:22:54</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.Calendar.v3.dll">
+      <publishTime>12/29/2015 23:29:14</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.Core.dll">
+      <publishTime>04/24/2016 23:22:52</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.dll">
+      <publishTime>04/24/2016 23:22:52</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.Drive.v2.dll">
+      <publishTime>04/24/2016 23:22:56</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.PlatformServices.dll">
+      <publishTime>04/24/2016 23:22:52</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>04/24/2016 23:22:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Threading.Tasks.dll">
+      <publishTime>04/24/2016 23:22:49</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Threading.Tasks.Extensions.Desktop.dll">
+      <publishTime>04/24/2016 23:22:49</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Threading.Tasks.Extensions.dll">
+      <publishTime>04/24/2016 23:22:49</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>04/24/2016 21:23:48</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>04/24/2016 23:22:51</publishTime>
+    </File>
+    <File Include="bin/solid_spork.dll">
+      <publishTime>04/29/2016 22:58:39</publishTime>
+    </File>
+    <File Include="bin/System.IO.dll">
+      <publishTime>04/24/2016 23:22:47</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.dll">
+      <publishTime>04/24/2016 23:22:51</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Extensions.dll">
+      <publishTime>04/24/2016 23:22:51</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>04/24/2016 23:23:18</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Primitives.dll">
+      <publishTime>04/24/2016 23:22:51</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.WebRequest.dll">
+      <publishTime>04/24/2016 23:22:51</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.dll">
+      <publishTime>04/24/2016 23:22:47</publishTime>
+    </File>
+    <File Include="bin/System.Threading.Tasks.dll">
+      <publishTime>04/24/2016 23:22:47</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>04/24/2016 21:23:50</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>04/24/2016 21:23:57</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>04/24/2016 21:23:57</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>04/24/2016 21:23:53</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>04/24/2016 21:23:49</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>04/24/2016 21:23:51</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>04/24/2016 21:23:52</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>04/24/2016 21:23:52</publishTime>
+    </File>
+    <File Include="bin/Zlib.Portable.dll">
+      <publishTime>04/24/2016 23:22:52</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>04/24/2016 21:23:27</publishTime>
+    </File>
+    <File Include="Models/SolidModel.edmx.diagram">
+      <publishTime>04/29/2016 20:47:18</publishTime>
+    </File>
+    <File Include="ng/homeCtrl.js">
+      <publishTime>04/29/2016 22:52:21</publishTime>
+    </File>
+    <File Include="ng/ng.js">
+      <publishTime>04/28/2016 20:54:03</publishTime>
+    </File>
+    <File Include="ng/queryCtrl.js">
+      <publishTime>04/29/2016 22:16:17</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>04/26/2016 23:16:50</publishTime>
+    </File>
+    <File Include="UI/Css/main.css">
+      <publishTime>04/29/2016 22:00:44</publishTime>
+    </File>
+    <File Include="UI/Js/golbal.js">
+      <publishTime>04/29/2016 22:06:55</publishTime>
+    </File>
+    <File Include="Upload/client.json">
+      <publishTime>04/26/2016 22:39:31</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>04/29/2016 22:55:57</publishTime>
+    </File>
+    <File Include="Views/Login/SignIn.cshtml">
+      <publishTime>04/26/2016 23:08:09</publishTime>
+    </File>
+    <File Include="Views/Login/SignUp.cshtml">
+      <publishTime>04/24/2016 22:13:01</publishTime>
+    </File>
+    <File Include="Views/Query/Query.cshtml">
+      <publishTime>04/29/2016 22:14:16</publishTime>
+    </File>
+    <File Include="Views/Query/QueryDetails.cshtml">
+      <publishTime>04/24/2016 21:52:49</publishTime>
+    </File>
+    <File Include="Views/shared/_footer.cshtml">
+      <publishTime>04/24/2016 21:59:21</publishTime>
+    </File>
+    <File Include="Views/shared/_Layout.cshtml">
+      <publishTime>04/29/2016 22:02:50</publishTime>
+    </File>
+    <File Include="Views/shared/_menu.cshtml">
+      <publishTime>04/27/2016 00:09:29</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>04/24/2016 21:23:27</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/29/2016 22:58:40</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -37,30 +37,30 @@ namespace solid_spork.Controllers
         {
 
             string Email = "mail.deepak899@gmail.com";
-            int UserId = 0;
-            int UserType = 0;
-            var data = db.Users.FirstOrDefault(m => m.Email == Email.ToLower());
-            if (data != null)
-            {
-                UserId = data.UserId;
-                UserType = data.UserType;
-                if (data.IsActive == false)
-                {
-                    return RedirectToAction("index", "home");
-                }
-            }
-            else
-            {
-                var content = new User();
-                content.UserType = 1;
-                content.Email = Email;
-                content.DOJ = System.DateTime.UtcNow;
-                content.IsActive = true;
-                db.Users.Add(content);
-                db.SaveChanges();
-                UserType = 1;
-                UserId = content.UserId;
-            }
+            int UserId = 1;
+            int UserType = 1;
+            //var data = db.Users.FirstOrDefault(m => m.Email == Email.ToLower());
+            //if (data != null)
+            //{
+            //    UserId = data.UserId;
+            //    UserType = data.UserType;
+            //    if (data.IsActive == false)
+            //    {
+            //        return RedirectToAction("index", "home");
+            //    }
+            //}
+            //else
+            //{
+            //    var content = new User();
+            //    content.UserType = 1;
+            //    content.Email = Email;
+            //    content.DOJ = System.DateTime.UtcNow;
+            //    content.IsActive = true;
+            //    db.Users.Add(content);
+            //    db.SaveChanges();
+            //    UserType = 1;
+            //    UserId = content.UserId;
+            //}
 
             Session["UserId"] = UserId;
             Session["Email"] = Email;

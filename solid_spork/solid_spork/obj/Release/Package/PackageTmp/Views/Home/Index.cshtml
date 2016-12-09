@@ -1,0 +1,25 @@
+﻿@{
+    Layout = "~/Views/shared/_Layout.cshtml";
+}
+
+<div class="container" ng-controller="homeCtrl" ng-init="loadFeeds()">
+    <div class="starter-template">
+        <h1>
+            solid-spork.com
+        </h1>
+        <p class="lead">
+            <input type="text" name="search" id="search" class="main-search-box" placeholder="search/ask help me to help you on solid-spork.com  " ng-model="searchText" />
+        </p>
+    </div>
+    <div id="search_result" ng-repeat="x in feedData">
+        <div class="result" id="{{x.QueryId}}">
+            <h3 ng-bind="x.QueryData"></h3>
+            <p ng-bind="x.QueryDescription">
+
+            </p>
+        </div>
+
+    </div>
+
+</div>
+<script src="~/ng/homeCtrl.js"></script>
